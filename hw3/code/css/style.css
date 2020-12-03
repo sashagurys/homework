@@ -235,7 +235,7 @@ margin: auto;
     height: 320px;
     margin: auto;
     background-color: #000000;
-    background-image: url(/tms3/code/img/bg/cityscape.png);
+    background-image: url(../img/bg/cityscape.png);
 }
 
 .download__title {
@@ -320,25 +320,25 @@ background-size: 100%;
 }
 
 .social-media__link_dropbox {
-    background-image: url(/tms3/code/img/icons/sm/dropbox.png);
+    background-image: url(../img/icons/sm/dropbox.png);
 }
 .social-media__link_facebook {
-    background-image: url(/tms3/code/img/icons/sm/facebook.png);
+    background-image: url(../img/icons/sm/facebook.png);
 }
 .social-media__link_google {
-    background-image: url(/tms3/code/img/icons/sm/google+.png);
+    background-image: url(../img/icons/sm/google+.png);
 }
 .social-media__link_instagram {
-    background-image: url(/tms3/code/img/icons/sm/instagram.png);
+    background-image: url(../img/icons/sm/instagram.png);
 }
 .social-media__link_pinterest {
-    background-image: url(/tms3/code/img/icons/sm/pinterest.png);
+    background-image: url(../img/icons/sm/pinterest.png);
 }
 .social-media__link_twitter {
-    background-image: url(/tms3/code/img/icons/sm/twitter.png);
+    background-image: url(../img/icons/sm/twitter.png);
 }
 .social-media__link_viber {
-    background-image: url(/tms3/code/img/icons/sm/viber.png);
+    background-image: url(../img/icons/sm/viber.png);
 }
 
 .footer__trademark {
