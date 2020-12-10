@@ -5,13 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/brands.css" integrity="sha384-/feuykTegPRR7MxelAQ+2VUMibQwKyO6okSsWiblZAJhUSTF9QAVR0QLk6YwNURa" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/fontawesome.css" integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <section class="awesome">
+    <header class="header">
+        <div class="container header-container">
+            <img src="img/logos/header-logo.png" alt="axit logo" class="logo">
+            <nav class="navigation">
+                <a href="#first-screen" class="navigation__link">Features</a>
+                <a href="#awesome" class="navigation__link">About</a>
+                <a href="#price" class="navigation__link">Pricing</a>
+                <a href="#review" class="navigation__link">Reviews</a>
+                <a href="#contact" class="navigation__link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="first-screen" id="first-screen">
+        <div class="container first-screen-container">
+            <div class="first-screen-main">
+                <img src="img/logos/first-screen-logo.png" alt="axit logo" class="big-logo">
+                <h2 class="first-screen__title">MODERN AXURE TEMPLATE
+                    FOR BEAUTIFUL PROTOTYPES</h2>
+                <p class="first-screen__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et viverra justo commodo.</p>
+                <button class="first-screen__download-btn">Download</button>
+            </div>
+            <aside class="first-screen__aside">
+                <form action="#" class="trial-form">
+                    <div class="trial-form__title">
+                        Try Your <span class="free">Free</span> Trial Today
+                    </div>
+                    <input type="text" class="trial-form__input" placeholder="Name">
+                    <input type="email" class="trial-form__input" placeholder="Email">
+                    <input type="password" class="trial-form__input" placeholder="Password">
+                    <button class="trial-form__start-btn">Get Started</button>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container social-container">
+            <div class="social__text">
+                <h3 class="social__title">Social Media</h3>
+                <p class="social__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet.</p>
+            </div>
+            <ul class="social-links">
+                <li class="social-links__item"><i class="fab fa-dropbox"></i></li>
+                <li class="social-links__item"><i class="fab fa-facebook-f"></i></li>
+                <li class="social-links__item"><i class="fab fa-google-plus-g"></i></li>
+                <li class="social-links__item"><i class="fab fa-instagram"></i></li>
+                <li class="social-links__item"><i class="fab fa-pinterest-p"></i></li>
+                <li class="social-links__item"><i class="fab fa-twitter"></i></li>
+                <li class="social-links__item"><i class="fab fa-viber"></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="awesome" id="awesome">
         <div class="container awesome__container">
             <h2 class="title">Why This Is Awesome</h2>
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -47,7 +106,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container price__container">
             <h2 class="title">Pricing Options</h2>
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -98,7 +157,7 @@
         </div>
     </section>
 
-    <section class="review">
+    <section class="review" id="review">
         <div class="container review__container">
             <h2 class="title">What Our Customers Are Saying</h2>
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -109,10 +168,10 @@
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.
-                        <div class="triangle"></div>
+                        <div class="review-triangle"></div>
                     </div>
                     <div class="review-card__author">
-                        <img src="/code/img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
+                        <img src="img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
                         <div class="review-card__author-info">
                             <p class="review-card__author-name">Jeremy H.</p>
                             <p class="review-card__author-occupation">Manager</p>
@@ -125,10 +184,10 @@
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.
-                        <div class="triangle"></div>
+                        <div class="review-triangle"></div>
                     </div>
                     <div class="review-card__author">
-                        <img src="/code/img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
+                        <img src="img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
                         <div class="review-card__author-info">
                             <p class="review-card__author-name">John S.</p>
                             <p class="review-card__author-occupation">Freelancer</p>
@@ -141,10 +200,10 @@
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.
-                        <div class="triangle"></div>
+                        <div class="review-triangle"></div>
                     </div>
                     <div class="review-card__author">
-                        <img src="/code/img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
+                        <img src="img/avatars/avatar.png" alt="jeremy's avatar" class="review-card__avatar">
                         <div class="review-card__author-info">
                             <p class="review-card__author-name">Susan W.</p>
                             <p class="review-card__author-occupation">Photographer</p>
@@ -159,8 +218,26 @@
         <!-- <div class="download-container"> -->
             <h2 class="download__title">Stylish Axure Design</h2>
             <p class="download__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-            <button class="download__button">Download</button>
+            <button class="download-button">Download</button>
         <!-- </div> -->
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+            <h2 class="title">Contact Us</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form action="#" class="contact__form">
+                <div class="contact__input-container">
+                    <div class="contact__user-info-input">
+                        <input type="text" placeholder="Name" class="contact__input" autocomplete="off">
+                        <input type="text" placeholder="Email" class="contact__input" autocomplete="off">
+                        <input type="text" placeholder="Subject" class="contact__input" autocomplete="off">
+                    </div>
+                    <textarea type="text" placeholder="Message" class="contact__message-input" autocomplete="off"></textarea>
+                </div>
+                <button class="contact__send-button">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <footer class="footer">
@@ -177,6 +254,7 @@
             <div class="footer__trademark">@2015 Axure Themes</div>
         </div>
     </footer>
+
 </body>
 
 </html>
